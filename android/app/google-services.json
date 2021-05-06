@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "879983786982",
+    "project_id": "frparel-dba3b",
+    "storage_bucket": "frparel-dba3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879983786982:android:27544f28139b667ae2f427",
+        "android_client_info": {
+          "package_name": "com.stanleylab97.fr_parel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879983786982-j8poa32q81s9kuhqjp2p87sdd1bbv333.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stanleylab97.fr_parel",
+            "certificate_hash": "501f71796722d40fb959c1b8b59cad1162805c01"
+          }
+        },
+        {
+          "client_id": "879983786982-f40pt7p53b2ggq98rd8ja5e30400ipju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC-oPT_h2iih5YynbMtlImVhFDgmnJhgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879983786982-f40pt7p53b2ggq98rd8ja5e30400ipju.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
