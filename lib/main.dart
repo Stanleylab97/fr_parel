@@ -1,6 +1,7 @@
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:fr_parel/screens/Auth/sign_in.dart';
 
 import 'navigation/bottom_navigation_bar.dart';
 import 'screens/Auth/authentication.dart';
@@ -36,7 +37,7 @@ class MyApp extends StatelessWidget {
       home: AnimatedSplashScreen(
         splash: Image.asset('assets/images/logo.png'),
         splashTransition: SplashTransition.sizeTransition,
-        nextScreen: AuthTypeSelector(),
+        nextScreen: SignInPage(),
         backgroundColor: Colors.white,
         duration: 3000,
       ),
