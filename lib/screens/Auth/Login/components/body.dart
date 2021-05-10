@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:flutter_svg/svg.dart';
+import 'package:fr_parel/navigation/bottom_navigation_bar.dart';
 import 'package:fr_parel/screens/Auth/Signup/signup_screen.dart';
 import 'package:fr_parel/widgets/login_components/already_have_an_account_acheck.dart';
 import 'package:fr_parel/widgets/login_components/rounded_button.dart';
@@ -41,7 +42,16 @@ class Body extends StatelessWidget {
             ),
             RoundedButton(
               text: "CONNEXION",
-              press: () {},
+              press: () {
+                 Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) {
+                      return Racine();
+                    },
+                  ),
+                );
+              },
             ),
             SizedBox(height: size.height * 0.03),
             AlreadyHaveAnAccountCheck(

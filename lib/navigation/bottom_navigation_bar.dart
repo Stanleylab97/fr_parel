@@ -42,19 +42,19 @@ class _RacineState extends State<Racine> {
         items: <BubbleBottomBarItem>[
           BubbleBottomBarItem(
               backgroundColor: Colors.black87,
+              icon: FaIcon(FontAwesomeIcons.listAlt, color: Colors.black),
+              activeIcon: FaIcon(FontAwesomeIcons.listAlt, color: Colors.red),
+              title: Text("Relevés")),
+          BubbleBottomBarItem(
+              backgroundColor: Colors.black87,
+              icon: FaIcon(FontAwesomeIcons.home, color: Colors.black),
+              activeIcon: FaIcon(FontAwesomeIcons.home, color: Colors.red),
+              title: Text("Accueil")),
+          BubbleBottomBarItem(
+              backgroundColor: Colors.black87,
               icon: FaIcon(FontAwesomeIcons.tools, color: Colors.black),
               activeIcon: FaIcon(FontAwesomeIcons.tools, color: Colors.red),
-              title: Text("Entretien")),
-          BubbleBottomBarItem(
-              backgroundColor: Colors.black87,
-              icon: FaIcon(FontAwesomeIcons.car, color: Colors.black),
-              activeIcon: FaIcon(FontAwesomeIcons.car, color: Colors.red),
-              title: Text("Dashboard")),
-          BubbleBottomBarItem(
-              backgroundColor: Colors.black87,
-              icon: FaIcon(FontAwesomeIcons.gasPump, color: Colors.black),
-              activeIcon: FaIcon(FontAwesomeIcons.gasPump, color: Colors.red),
-              title: Text("Carburation")),
+              title: Text("Paramétrage")),
         ],
       ),
     );
