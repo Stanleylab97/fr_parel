@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:fr_parel/navigation/postes.dart';
 import 'package:fr_parel/navigation/releves.dart';
+import 'package:fr_parel/widgets/app_settings.dart';
 
 import 'dashboard.dart';
 
@@ -27,7 +28,7 @@ class _RacineState extends State<Racine> {
       body: <Widget>[
         Releves(),
         Dashboard(),
-        Postes(),
+        SettingsDash(),
       ][currentIndex],
       bottomNavigationBar: BubbleBottomBar(
         opacity: 0,

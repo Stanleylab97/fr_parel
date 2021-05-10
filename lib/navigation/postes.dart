@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fr_parel/widgets/app_settings.dart';
 
 class Postes extends StatefulWidget {
   @override
@@ -91,7 +92,7 @@ class _PostesState extends State<Postes> {
           ),
           body: TabBarView(
             children: <Widget>[
-              Center(child: Text('')), //ff5722
+              Center(child: SettingsDash()), //ff5722
               Center(child: Text('')),
               Center(child: Text('')),
               Center(child: Text('')),
